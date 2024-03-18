@@ -1,7 +1,25 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import Student from "./Student";
+import Counter from "./Counter";
 
-function App() {
+function app(){
+  return(
+    <div>
+      <Student/>
+      <Counter/>
+    </div>
+  );
+
+}
+export default app;
+
+
+
+
+
+
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -22,7 +40,7 @@ function App() {
   );
 }
 
-export default App;
+export default App;*/
 
 
 
