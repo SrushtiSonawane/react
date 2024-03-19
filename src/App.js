@@ -1,13 +1,24 @@
 import React from "react";
 import './App.css';
+
+import Header from "./Header";
 import Student from "./Student";
 import Counter from "./Counter";
 
+import AlphabetList from "./AlphabetList";
+import StudentTable from "./Studentdata";
+
+
+//import Car from "./Car";
 function app(){
   return(
     <div>
+      <Header />
       <Student/>
       <Counter/>
+      <StudentTable />
+      <AlphabetList />
+      
     </div>
   );
 

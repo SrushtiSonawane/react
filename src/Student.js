@@ -9,6 +9,7 @@ class Student extends Component{
             <h1>Hello{this.state.name}, I am from
             {this.state.city}
             </h1>
+             
             
         
         );
