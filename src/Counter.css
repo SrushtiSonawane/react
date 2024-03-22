@@ -1,0 +1,11 @@
+.Counter{
+    background-color: rgb(97, 190, 230);
+    color: black;
+    justify-content: center;
+    text-align: center;
+  }
+  button{
+    background-color:rgb(243, 5, 5);
+    padding: 20px;
+    border-radius: 20%;
+  }
