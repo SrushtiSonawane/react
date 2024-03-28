@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function Promises() {
+export function Promises() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
@@ -25,4 +25,3 @@ function Promises() {
   );
 }
 
-export default Promises;
