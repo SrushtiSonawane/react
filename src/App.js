@@ -1,15 +1,30 @@
 import React from "react";
 import './App.css';
-import Promises from "./components/Promises";
+
+
+import IfStatement from "./components/IfStatement";
 import AsyncAwait from "./components/AsyncAwait";
+import { Promises } from "./components/Promises";
+import { LogicalOperator } from "./components/LogicalOperator";
+import Button from "./components/Button";
+import  {KeysandList} from "./components/KeysandList";
+import Event from "./components/Event";
+import Form from "./components/Form";
+ 
+
+
 
 const App = () => {
+  const cars = ['Rolls Royce', 'kia', 'jaguar'];
   return (
-    <div style={{
-      display: 'flex', flexDirection: 'row'
-      
-    }}>
-      <Promises/>
+    <div>
+      <Form />
+      <Event />
+      <KeysandList />
+      <Button />
+      <LogicalOperator cars={cars}/>
+      <IfStatement />,
+      <Promises />
       <AsyncAwait />
     </div>
   )
